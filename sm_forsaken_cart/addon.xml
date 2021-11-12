@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sm_forsaken_cart</id>
+    <version>1.0</version>
+    <priority>100500</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <status>active</status>
+    <settings layout="popup" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="main">
+                <items>
+                    <item id="bitrix">
+                        <type>header</type>
+                    </item>
+                    <item id="sm_send_manager">
+                        <name>Отправка менджерам (вкл./выкл.)</name>
+                        <type>checkbox</type>
+                    </item>
+                    <item id="bitrix_url">
+                        <name>API URL</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="bitrix_ids">
+                        <name>Идентификаторы пользователей/чатов (через запятую)</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="emails">
+                        <name>E-mails пользователей</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
+
