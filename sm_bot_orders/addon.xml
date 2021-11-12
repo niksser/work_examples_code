@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sm_bot_orders</id>
+    <name>SM: БОТ новых заказов</name>
+    <description>Модуль позволяет отправлять новые заказы, сделанные на портале, в чаты менеджерам с помощью бота</description>
+    <version>1.0</version>
+    <priority>100500</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>ru</default_language>
+    <status>active</status>
+    <settings layout="popup" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="main">
+                <items>
+                    <item id="bitrix">
+                        <type>header</type>
+                    </item>
+
+                    <item id="bitrix_url">
+                        <name>API URL</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="dialog_ids">
+                        <name>Идентификаторы пользователей/чатов (через запятую)</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
