@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
 use Yii;
 use yii\helpers\ArrayHelper;
 
-class Products_DetOpt extends \app\models\Products
+class Products_name extends \app\models\Products
 {
     public function rules()
     {
